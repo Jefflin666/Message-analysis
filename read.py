@@ -13,3 +13,17 @@ for p in data:
 	g=sum/len(data)
 	g=int(g)
 print('平均約',g,'個字')
+dog=[]
+for d in data:
+	if len(d)<100:
+		dog.append(d)
+print('總共有',len(d),'比留言小於100個字')
+cat=[]
+for h in data:
+	if 'good' in h:
+		cat.append(cat)
+print('一共有',len(cat),'比留言含有good')
+	
+
+
+
